@@ -1,0 +1,96 @@
+/*
+Theme Name:Edge Child
+Theme URI: http://themefreesia.com/themes/edge
+Author: Theme Freesia
+Author URI: http://themefreesia.com
+Version: 1.0
+Text Domain: edge-child
+Template: edge
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public License
+version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+==================================================
+*/
+
+/*================================================
+Header Stuff
+================================================*/
+#site-title {
+  font-size: 12px;
+  letter-spacing: .1em;
+  font-family: 'Playfair Display', serif;
+}
+#site-description {
+  font-size: 12px;
+  letter-spacing: 1em;
+  line-height: 19px;
+}
+.main-navigation a {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: normal;
+  font-size:;
+}
+
+/*===============================================
+Main Content
+================================================*/
+.page-title {
+ float: none;  
+  text-align:center;
+}
+
+#primary {
+  float: none;
+  margin: auto;
+  text-align:center;
+}
+
+#primary > main { text-align: left; }
+
+.container {
+  max-width: 100%;
+}
+
+/*================================================
+Gallery - JCarousel
+================================================*/
+
+
+/*================================================
+Contact Form - Jetpack customization
+================================================*/
+#contact-form-13{
+ max-width: 500px; 
+  margin: auto;
+}
+
+#contact-form-13 input, textarea{
+  width: 100%;
+  border-radius: 0px;
+  margin: 0 auto 12px;
+  height: 35px;
+}
+
+textarea { 
+  height: 150px; 
+  resize: none;
+}
+
+#multiInputSingleLine { display: flex; }
+#nameInputDiv { flex: 1 1 50%; margin-right: 10px; }
+#emailInputDiv { flex: 1 1 50%; }
+#g13 { width: 100%; }
+#g13-1 { width: 100%; }
+
+@media all and (max-width: 767px) {
+  #multiInputSingleLine { flex-direction: column; }
+  #multiInputSingleLine > div { order: 0; }
+  #nameInputDiv { margin-right: 0px; }
+}
+
+input[type="reset"], input[type="button"], input[type="submit"] {
+  transition: all 0.3s ease-out;
+  padding: 0px;
+}
